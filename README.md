@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🏝️ WinDynamicIsland
+# 💊 TaskCapsule
 
-**An ultra-sleek, premium Apple Dynamic Island & Media Control Hub tailored specifically for Windows 11.**
+**A sleek, Fluent-styled interactive media capsule & live synced lyrics hub docked directly inside the Windows 11 Taskbar.**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
@@ -12,7 +12,7 @@
 <br />
 
 <p align="center">
-  <img src="assets/preview.svg" alt="WinDynamicIsland Preview" width="850">
+  <img src="assets/preview.svg" alt="TaskCapsule Preview" width="850">
 </p>
 
 </div>
@@ -21,7 +21,9 @@
 
 ## 🌟 Overview
 
-**WinDynamicIsland** brings the fluid, organic aesthetic of Apple's Dynamic Island straight into the **Windows 11 Taskbar**. Resting non-intrusively in your taskbar, it hooks directly into Windows native **Global System Media Transport Controls (GSMTC)** to provide real-time media states, synced karaoke lyrics, live audio spectrum bars, and instant interactive playback controls.
+Inspired by the beloved ecosystem of Windows customization tools (*TranslucentTB, TaskbarX, RoundedTB*), **TaskCapsule** embeds an organic, responsive media widget directly into the **Windows 11 Taskbar**.
+
+Instead of floating awkwardly over desktop wallpapers, **TaskCapsule** lives seamlessly on your taskbar as a compact capsule. With a single click, it springs upward into an expanded media hub with album art, synchronized karaoke lyrics, live equalizers, and instant playback controls.
 
 ---
 
@@ -64,8 +66,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/WinDynamicIsland.git
-cd WinDynamicIsland
+git clone https://github.com/YOUR_USERNAME/TaskCapsule.git
+cd TaskCapsule
 ```
 
 ### 2. Install Dependencies
@@ -92,7 +94,7 @@ pythonw main.py
 ```
 
 ### 🔄 Auto-Start with Windows (Recommended)
-You can configure **WinDynamicIsland** to start automatically with Windows in headless background mode:
+You can configure **TaskCapsule** to start automatically with Windows in headless background mode:
 
 ```bash
 # Enable auto-start with Windows:
@@ -101,7 +103,7 @@ python install_startup.py
 # Disable auto-start anytime:
 python uninstall_startup.py
 ```
-*Once enabled, WinDynamicIsland sleeps quietly in the background upon PC boot. The instant you open Spotify and play a song, the island seamlessly appears on your taskbar!*
+*Once enabled, TaskCapsule sleeps quietly in the background upon PC boot. The instant you open Spotify and play a song, the capsule seamlessly appears on your taskbar!*
 
 ---
 
@@ -128,7 +130,7 @@ self.bg_color = QColor(15, 15, 15, 225)
 ## 📂 Project Architecture
 
 ```
-WinDynamicIsland/
+TaskCapsule/
 ├── assets/
 │   └── preview.svg              # Vector preview showcase banner
 ├── system_media/
@@ -136,7 +138,7 @@ WinDynamicIsland/
 │   └── media_manager.py         # WinRT GSMTC session hooks & lyrics fetcher
 ├── ui/
 │   ├── __init__.py
-│   └── window.py                # Frameless PyQt6 island window & animations
+│   └── window.py                # Frameless PyQt6 capsule window & animations
 ├── install_startup.py           # One-click Windows startup installer
 ├── uninstall_startup.py         # One-click Windows startup uninstaller
 ├── main.py                      # Application bootstrap & qasync loop

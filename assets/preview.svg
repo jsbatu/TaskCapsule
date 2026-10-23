@@ -51,9 +51,9 @@
   <circle cx="200" cy="150" r="180" fill="#38bdf8" opacity="0.06" filter="blur(60px)" />
   <circle cx="800" cy="350" r="220" fill="#818cf8" opacity="0.07" filter="blur(70px)" />
 
-  <!-- Header Header Text -->
-  <text x="50" y="65" class="title" font-size="30" letter-spacing="-0.5">WinDynamicIsland</text>
-  <text x="50" y="95" class="subtitle" font-size="14">Dynamic Island &amp; GSMTC Media Hub for Windows 11 Taskbar with Synced Lyrics</text>
+  <!-- Header Text -->
+  <text x="50" y="65" class="title" font-size="32" letter-spacing="-0.5">💊 TaskCapsule</text>
+  <text x="50" y="95" class="subtitle" font-size="14">Fluent-Styled Media Capsule &amp; Synced Lyrics Hub Docked in Windows 11 Taskbar</text>
 
   <!-- Windows 11 Taskbar Mockup Strip -->
   <g transform="translate(50, 440)">
@@ -77,10 +77,10 @@
     </g>
 
     <!-- Tray Clocks -->
-    <text x="830" y="24" class="subtitle" font-size="12" fill="#cbd5e1" font-weight="600">22:24</text>
+    <text x="830" y="24" class="subtitle" font-size="12" fill="#cbd5e1" font-weight="600">22:28</text>
     <text x="825" y="38" class="subtitle" font-size="10" fill="#64748b">10/23/2026</text>
 
-    <!-- STATE A: Collapsed Island Resting on Taskbar Left -->
+    <!-- STATE A: Collapsed Capsule Resting on Taskbar Left -->
     <g transform="translate(12, 6)" filter="url(#shadowPill)">
       <rect x="0" y="0" width="240" height="36" rx="18" fill="url(#islandGlass)" stroke="url(#glassBorder)" stroke-width="1" />
       
@@ -152,7 +152,7 @@
   <!-- Feature Callout Badges Top Right -->
   <g transform="translate(720, 48)">
     <rect x="0" y="0" width="230" height="32" rx="16" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
-    <text x="16" y="20" class="title" font-size="12" fill="#e2e8f0">Windows 11 Fluent Design</text>
+    <text x="16" y="20" class="title" font-size="12" fill="#e2e8f0">Taskbar Native Architecture</text>
   </g>
   <g transform="translate(720, 88)">
     <rect x="0" y="0" width="230" height="32" rx="16" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
