@@ -1,0 +1,7 @@
+PyQt6
+winrt-Windows.Media.Control
+winrt-Windows.Storage.Streams
+pycaw
+comtypes
+qasync
+aiohttp
